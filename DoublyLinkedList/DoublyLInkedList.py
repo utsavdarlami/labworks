@@ -41,12 +41,15 @@ class LinkedList(object):
             self.head.prev= newNode;
             newNode.next = self.head;
             self.head=newNode;
+        elif(predecessor.next==None):
+            newNode.prev=predecessor;
+            predecessor.next = newNode;
         else:
             newNode.prev = predecessor;
             newNode.next = predecessor.next;
-            #predecessor.next.prev = newNode;
+            predecessor.next.prev = newNode;
             predecessor.next=newNode;
-           
+
     def remove(self,data):
 
         if self.isEmpty():
