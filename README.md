@@ -10,6 +10,8 @@ KATHMANDU UNIVERSITY, Lab Work of Data Structures And Algorithms
   - SinglyLinkedList 
   - DoublyLinkedList
   - BubbleSort Visualization
+	![alt text](https://github.com/KaloSapana/KU_COMP202_labwork/blob/master/BubbleSortVisualization/Figure_1.png)
+
 ```bash
 .
 ├── BubbleSortVisualization
