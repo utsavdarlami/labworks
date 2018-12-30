@@ -27,13 +27,13 @@ fig, ax = plt.subplots() #figure , axes
 
 
 thechart = ax.bar(range(len(x)),x) #bar graph with x-axis value from 1 to 100 and y-axis value form array X, 
-
+ax.set_title("No Of. Operations")
 #function to update the figure 
 def update(A,rects):
     for rect,value in zip(rects,A):
         rect.set_height(value)#updating the height of rectangle with respect to value of array
         
-
+	
 ani  = animation.FuncAnimation(fig, func= update,fargs=(thechart,) ,frames = generator,interval = 1,repeat =False)
 
 plt.show() #showing the animation 
