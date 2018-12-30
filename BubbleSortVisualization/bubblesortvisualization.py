@@ -25,9 +25,9 @@ generator=bubblesort(x)
 
 fig, ax = plt.subplots() #figure , axes
 
-
 thechart = ax.bar(range(len(x)),x) #bar graph with x-axis value from 1 to 100 and y-axis value form array X, 
-ax.set_title("No Of. Operations")
+
+ax.set_title(" Bubble Sort ")
 #function to update the figure 
 def update(A,rects):
     for rect,value in zip(rects,A):
