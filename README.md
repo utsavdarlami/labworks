@@ -11,7 +11,8 @@ KATHMANDU UNIVERSITY, Lab Work of Data Structures And Algorithms
   - DoublyLinkedList
   - BubbleSort Visualization
 	![alt text](https://github.com/KaloSapana/KU_COMP202_labwork/blob/master/BubbleSortVisualization/Figure_1.png)
-
+  -InsertionSort Visualizatio
+  ![alt text](https://github.com/KaloSapana/KU_COMP202_labwork/blob/master/InsertionSortVisualization/Figure_2.png)
 ```bash
 .
 ├── BubbleSortVisualization
