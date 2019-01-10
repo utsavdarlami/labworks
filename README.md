@@ -21,6 +21,9 @@ KATHMANDU UNIVERSITY, Lab Work of Data Structures And Algorithms
 ├── DoublyLinkedList
 │   ├── DoublyLInkedList.py
 │   ├── main.py
+├── InsertionSortVisualization
+│   ├── Figure_2.png
+│   └── insertionsortvisualization.py
 ├── queue
 │   ├── main.cpp
 │   ├── queue.cpp
