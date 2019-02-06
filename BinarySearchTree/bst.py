@@ -11,7 +11,8 @@ Also, write a test program to check if the implementation works properly."""
 class Node(object):
 
     def __init__(self,data):
-        self.data = data
+        #self.data = data #for string 
+        self.data = int(data) #for integer 
         self.right  = None   
         self.left  = None
 
