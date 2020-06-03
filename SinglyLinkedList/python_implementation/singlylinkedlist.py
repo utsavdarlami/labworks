@@ -16,25 +16,27 @@ Also, write a test program to check if the implementation works properly.
 """
 class Node(object):
 
-    def __init__(self,data):
-    
-        self.data = data;
-        self.next = None;
+    def __init__(self, data):
+
+        self.data = data
+        self.next = None
+
+
 class LinkedList(object):
 
     def __init__(self):
 
-        self.head = None;
+        self.head = None
 
-    def isEmpty(self): 
+    def isEmpty(self):
 
         if self.head == None:
             return True;
         else :
             return False;
 
-    def addToHead(self,data):
-        
+    def addToHead(self, data):
+
         newNode = Node(data);
         if self.isEmpty():
             self.head=newNode;
@@ -64,8 +66,8 @@ class LinkedList(object):
         if self.isEmpty():
             print("No Head to Remove")
         else:
-            HeadNode  = self.head;        
-            self.head =HeadNode.next ;
+            HeadNode  = self.head;
+            self.head = HeadNode.next ;
             del HeadNode.data;
             del HeadNode.next;
 
@@ -88,7 +90,7 @@ class LinkedList(object):
                     del currentNode.next;
                 else:
                     print("No Such Data to Remove")
-            
+
     def retrieve(self,data):
 
         currentNode =self.head;
@@ -110,7 +112,7 @@ class LinkedList(object):
             return True;
 
     def traverse(self):
-        
+
         currentNode =self.head;
         while currentNode != None:
             print(currentNode.data);
