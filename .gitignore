@@ -1,0 +1,10 @@
+# Executables
+*.exe
+*.out
+
+#/build
+
+**~
+
+***/build
+***/.vscode

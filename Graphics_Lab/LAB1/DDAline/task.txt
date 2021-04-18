@@ -1,0 +1,3 @@
+a) Identify the resolution of your Graphics Library
+b) Different Graphical function of the choosen library
+

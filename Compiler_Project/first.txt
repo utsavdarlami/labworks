@@ -1,0 +1,5 @@
+S -> A B C | g h i | j k l
+A -> a | b | c | /E
+B -> b | /E
+D -> d
+C -> z
