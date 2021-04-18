@@ -1,0 +1,16 @@
+* Missionaries and Cannibals 
+- Used DFS for state space search
+** Requirements
+- graphviz in both python and your system
+#+begin_src 
+From Wikipedia: 
+    "Graphviz (short for Graph Visualization Software) is a package of open-source tools [...] for drawing graphs specified in DOT language scripts."
+#+end_src
+
+** Usage
+~$ python main.py~
+This will return a .gv file and pdf file
+
+- To obtain png file from gv file do, (requires graphviz in system)
+  ~$ dot -Tpng MCB.gv -o MCB_vertical.png~
+  
