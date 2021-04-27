@@ -7,7 +7,6 @@ class Graph():
         self.graph = defaultdict(list)
 
     def add_edges(self, node1, node2, action):
-        """ add n1 to n2 edge with its label """
         self.graph[node1].append({action: node2})
 
     def get_nodes(self, state):
