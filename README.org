@@ -4,7 +4,7 @@
 - Algorithms and Complexity
 - Computer Graphics
 - Compiler Project (SLR Parser)
-  - Made changes to the code in this repo https://github.com/ayushkumarshah/SLR-Parser so that it can be run by python 3 (NO GUI, only console)
+  - Made changes to the code in repo https://github.com/ayushkumarshah/SLR-Parser so that it can be run by python 3 (NO GUI, only console)
 - AI Assignment
 
   
